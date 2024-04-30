@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Controller for the metrics
+ * @see MetricDTO
+ * @see com.bestapp.MonitoringSystem.service.impl.MetricsConsumerServiceImpl
+ */
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/metrics")
